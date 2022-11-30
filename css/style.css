@@ -1,0 +1,324 @@
+/* Original size 1920px; For 1200px ratio 0.625 */
+body{
+    padding-top: 29px;
+}
+
+body>div{
+    /*border: 1px solid black;*/
+}
+
+.wrapper{
+    width: 1200px;
+    min-height: 5px;
+    margin: 0 auto;
+    /*background-color: lightgray;*/
+}
+
+/* Section 1 */
+
+.section1 .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.section1 .logo{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section1 .logo-img img{
+    height: 17px;
+}
+
+.section1 .title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: -1px;
+    margin-left: 8px;
+}
+
+.section1 .menu{
+    flex-grow: 1;
+}
+
+.section1 .menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section1 .menu li{
+    display: block;
+}
+
+.section1 .menu li a{
+    text-decoration: none;
+    color: #242323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.01px;
+}
+
+.section1 .menu li:nth-last-child(1) a{
+    color: #FEFEFE;
+    padding: 8px 14px 11px 14px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* Section 2 */
+
+.section2 .container{
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F6F5;
+    border-radius: 37px;
+    margin-top: 29px;
+}
+
+.section2 .slogan{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    margin-top: 48px;
+    margin-bottom: 56px;
+}
+
+.section2 .main-slogan{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.section2 .main-slogan .unique-background{
+    position: relative;
+    height: 75px;
+}
+
+.section2 .main-slogan .unique-background .unique,
+.section2 .main-slogan .unique-background .background{
+    position: absolute;
+}
+
+.section2 .main-slogan .unique-background .unique{
+    z-index: 10;
+}
+
+.section2 .main-slogan .unique-background .background{
+    background-color: #EBD96B;
+    transform: rotate(-2deg);
+    left: -20px;
+    top: -6px;
+    width: 320px;
+    height: 75px;
+}
+
+.section2 .main-slogan .lets-background{
+    position: relative;
+    height: 75px;
+}
+
+.section2 .main-slogan .lets-background .lets,
+.section2 .main-slogan .lets-background .background{
+    position: absolute;
+}
+
+.section2 .main-slogan .lets-background .lets{
+    z-index: 10;
+}
+
+.section2 .main-slogan .lets-background .background{
+    background-color: white;
+    transform: rotate(-2deg);
+    left: -20px;
+    top: -6px;
+    width: 290px;
+    height: 75px;
+}
+
+.section2 .second-slogan{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    margin-top: 25px;
+}
+
+.section2 .decor-button{
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.section2 .decor{
+    margin-right: 25px;
+}
+
+.section2 .decor img{
+    width: 115px;
+}
+
+.section2 .button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1px;
+    background-color: black;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+
+.section2 .banner-photo{
+    flex: 6;
+    position: relative;
+}
+
+.section2 .banner-img{
+    position: absolute;
+}
+
+.section2 .woman{
+    width: 545px;
+    bottom: 0;
+    right: 50px;
+}
+
+.section2 .star{
+    width: 36px;
+}
+
+.section2 .star1{
+    top: 42px;
+    left: 42px;
+}
+
+.section2 .star2{
+    top: 55px;
+    right: 150px;
+}
+
+.section2 .star3{
+    bottom: 65px;
+    right: 50px;
+}
+
+.section2 .star4{
+    bottom: 25px;
+    left: 100px;
+}
+
+/* Section 3 */
+
+.section3{
+    width: 100%;
+    height: 115px;
+    background-color: #EBD96B;
+    margin-top: 45px;
+}
+
+.section3 .brands{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.section3 .brand-item img{
+    height: 40px;
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+    .wrapper{
+        width: 960px;
+    }
+
+    /* Section 2 */
+
+    .section2 .woman{
+        right: 10px;
+    }
+
+    .section2 .star4{
+        left: 30px;
+    }
+
+    .section2 .star1{
+        left: 12px;
+    }
+
+    /* Section 3 */
+}
+
+@media (max-width: 960px){
+    .wrapper{
+        width: 480px;
+    }
+
+    .section1 .logo{
+        flex-grow: 1;
+    }
+
+    .section1 .logo-img img{
+        height: 14px;
+    }
+
+    .section1 .title{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0;
+        margin-left: 4px;
+    }
+
+    .section1 .menu{
+        flex-grow: 3;
+    }
+
+    .section1 .menu li a{
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+
+    .section1 .menu li:nth-last-child(1) a{
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+
+    /* Section 2 */
+
+    .section2 .banner-photo{
+        display: none;
+    }
+
+    /* Section 3 */
+
+    .section3{
+        height: 70px;
+    }
+
+    .section3 .brands{
+        padding-top: 22px;
+    }
+
+    .section3 .brand-item img{
+        height: 25px;
+    }
+}
+
