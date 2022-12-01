@@ -230,6 +230,7 @@ body>div{
     height: 115px;
     background-color: #EBD96B;
     margin-top: 45px;
+
 }
 
 .section3 .brands{
@@ -311,6 +312,11 @@ body>div{
 
     .section3{
         height: 70px;
+    }
+
+    .section3>div{
+        height: 70px;
+        background-color: #EBD96B;
     }
 
     .section3 .brands{
