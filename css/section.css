@@ -1,0 +1,83 @@
+.section8{
+    background-color: #E5C643;
+    color: white;
+}
+
+.section8 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 88px;
+    padding-bottom: 98px;
+    width: 54%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section8 .main-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 1px;
+}
+
+.section8 .secondary-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin-top: 24px;
+}
+
+.section8 .subscribe-form{
+    margin-top: 32px;
+    padding: 6px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.section8 .subscribe-form input[type="email"]{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #767676;
+    border: none;
+    width: 250px;
+    padding-left: 12px;
+}
+
+.section8 .subscribe-form input[type="email"]:focus{
+    border: none;
+    outline:none;
+}
+
+.section8 .subscribe-form input[type="submit"]{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 42px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
