@@ -555,6 +555,140 @@ body>div{
     color: #7F7F7F;
 }
 
+/* Section 7 */
+
+.section7 .container{
+    display: flex;
+    flex-direction: row;
+    height: 605px;
+}
+
+.section7 .text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section7 .text>div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section7 .main-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+
+.section7 .text .secondary-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -1px;
+    color: #7C7C7C;
+    margin-top: 26px;
+}
+
+.section7 .text .download-links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 41px;
+}
+
+.section7 .text .download-links .applestore{
+    margin-right: 15px;
+}
+
+.section7 .download-links img{
+    width: 127px;
+}
+
+.section7 .banner{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section7 .banner .phone{
+    position: absolute;
+    z-index: 10;
+}
+
+.section7 .banner .phone img{
+    width: 300px;
+}
+
+.section7 .banner .circle{
+    position: absolute;
+    border-radius: 50%;
+}
+
+.section7 .banner .circle-empty{
+    border: 1px solid #EFECEB;
+}
+
+.section7 .banner .circle-border-1{
+    width: 285px;
+    height: 285px;
+
+}
+
+.section7 .banner .circle-border-2{
+    width: 350px;
+    height: 350px;
+
+}
+
+.section7 .banner .circle-border-3{
+    width: 415px;
+    height: 415px;
+
+}
+
+.section7 .banner .circle-bg-gray{
+    background-color: #89807A;
+}
+
+.section7 .banner .circle-bg-yellow{
+    background-color: #EBD96B;
+}
+
+.section7 .banner .circle-1{
+    width: 15px;
+    height: 15px;
+    top: 20%;
+    left: 15%;
+}
+
+.section7 .banner .circle-2{
+    width: 32px;
+    height: 32px;
+    top: 20%;
+    right: 15%;
+}
+
+.section7 .banner .circle-3{
+    width: 11px;
+    height: 11px;
+    bottom: 20%;
+    right: 15%;
+}
+
+.section7 .banner .circle-4{
+    width: 21px;
+    height: 21px;
+    bottom: 10%;
+    left: 10%;
+}
+
 @media (min-width: 960px) and (max-width: 1200px) {
     .wrapper{
         width: 960px;
@@ -637,6 +771,16 @@ body>div{
 
     .section6 .title{
         height: 80px;
+    }
+
+    /* Section 7 */
+
+    .section7 .banner .circle-2{
+        right: 10%;
+    }
+
+    .section7 .banner .circle-4{
+        bottom: 15%;
     }
 }
 
@@ -791,6 +935,16 @@ body>div{
     }
 
     .section6 .item .arrow{
+        display: none;
+    }
+
+    /* Section 7 */
+
+    .section7 .container{
+        height: 500px;
+    }
+
+    .section7 .banner{
         display: none;
     }
 }
